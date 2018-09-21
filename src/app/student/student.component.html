@@ -1,0 +1,11 @@
+<p>
+  Thong Tin Cua Hoc Sinh .
+</p>
+<ul class="Heroes">
+  <li *ngFor="let hocsinh of hocsinh " (click)="onSelect(hero)">
+    <span>MSHS: {{hocsinh.MSHS}}</span>
+    <span>Ho Va Ten: {{hocsinh.HoVaTen}}</span>
+    <span>Lop: {{hocsinh.Lop}}</span>
+    <span>GVCN: {{hocsinh.ChuNhiem}}</span>
+  </li>
+</ul>
